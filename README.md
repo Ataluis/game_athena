@@ -1,18 +1,11 @@
-To compile, try :
+# Athena
 
-  $  make
-  $  ./spacebattle
+In this simple game you move a spaceship with the arrow keys. Try not to get hit by the laser bubbles and survive as long as possible.
 
-If this does not work, you have to open spacebattle.cbp with
-Code::Blocks and compile it there. For this you may need to add 
-some libraries to link:
-  --Settings
-    --Compiler...
-      --Linker settings	
-        Link libraries:
-        sfml-graphics
-        sfml-system
-        sfml-window
+To run:
 
-This game was written and designed by Fabian Farina. Most of the bitmaps were 
-created with GIMP, the background was a lincense free foto found on the internet.
+Execute the run.sh file from your console with:
+
+> ./run.sh
+
+The program will ask you for root permission and install the SFML libraries (in case they are not already installed).
