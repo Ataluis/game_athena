@@ -6,6 +6,6 @@ To run:
 
 Execute the run.sh file from your console with:
 
-> ./run.sh
+> bash run.sh
 
-The program will ask you for root permission and install the SFML libraries (in case they are not already installed).
+The program will ask you for root permission and install the SFML libraries (in case they are not already installed). Afterwards it will compile all the files and then  open up the game.
